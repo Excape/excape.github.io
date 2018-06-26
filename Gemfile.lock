@@ -254,6 +254,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-remote-theme
   minimal-mistakes-jekyll
 
 BUNDLED WITH

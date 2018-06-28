@@ -2,6 +2,15 @@
 permalink: /
 layout: single
 author_profile: true
+header:
+  image: /assets/images/saentis.jpg
 ---
 
-Hi, this is my website!
+Hi, I'm Robin and this is my personal website.
+
+I'm a software engineer living near Zurich, Switzerland. I'm about to graduate with a Bachelor of Science.
+I love to tinker with technology, like playing around with Linux, discovering new programming languages or prototyping some new ideas with Python.
+
+You can see a few of my projects and experiments on the [Projects](/projects) page.
+
+If you want to get in touch with me, use any of the links in the sidebar.

@@ -61,4 +61,23 @@ My contribution was a file synchronisation between the remote file server and th
 
 Technologies: <i class="fab fa-python"></i> Python
 
+## Experiments
 
+Here are some ideas I've played around with. They never grew to be complete projects and they were mostly created in an afternoon.
+
+---
+
+### [<i class="fab fa-github"></i>](https://github.com/Excape/lyrics-analysis){:target="blank"} Lyrics Analysis (2017)
+
+When the [Natural Language API](https://cloud.google.com/natural-language/){:target="blank"} from Google was released, I thought it would be fun to feed some lyrics into it. I gathered lyrics from the charts in the last 20 years from various APIs and fed them through the Google API to get the sentiment score (how positive or negative a text is). I never got any meaningful results, but it was fun to play around with.
+
+Technologies: <i class="fab fa-python"></i> Python
+
+---
+
+### [<i class="fab fa-github"></i>](https://github.com/jmatj/har2pcap){:target="blank"} har2pcap (2016)
+
+One afternoon we were playing around with the Chrome developer tools and wanted to analyze some network traffic with Wireshark. But Chrome works with the HAR format, Wireshark with pcap. We didn't find any tool to convert between those formats, so we wrote one ourselves.
+It was an interesting challenge to pick apart a binary protocol (pcap) and construct data according to the protocol specifications.
+
+Technologies: <i class="fab fa-python"></i> Python, TCP/IP

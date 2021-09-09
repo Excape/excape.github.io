@@ -2,16 +2,30 @@
 permalink: /projects
 layout: single
 author_profile: true
-toc: true
+toc: false
 header:
-  image: /assets/images/lisbon.jpg
+  image: /assets/images/acadia.jpg
 ---
 
-I publish all my code from my projects and experiments to my <i class="fab fa-github"></i> [GitHub](https://github.com/Excape){:target="blank"} page.
+I publish all my code from my personal projects to my <i class="fab fa-github"></i> [GitHub](https://github.com/Excape){:target="blank"} page.
 
 Here I'll highlight some things I've been working on:
 
 ## Projects
+
+### [<i class="fab fa-github"></i>](https://github.com/excape/ynab-splitter){:target="blank"} YNAB Splitter
+[YNAB](https://www.youneedabudget.com/){:target="blank"} ("You Need a Budget") is a personal financing tool I've been using with my wife. Since we're sharing a credit card, it was annoying to keep separate budgets in sync.
+I created YNAB splitter as a web application to assist in sorting through credit card transactions and splitting them between us. It was also a good chance to try out principles from "Clean Architecture". I have created a tech talk about it [here](https://github.com/Excape/clean-architecture-talk){:target="blank"}.
+
+Technologies: <i class="fab fa-react"></i> React, Kotlin, Spring Boot, MongoDB
+
+---
+
+### [<i class="fab fa-github"></i>](https://github.com/Excape/camp-werwoelfle){:target="blank"} Werwölfle (2019)
+Built during a Hackathon, we implemented a version of the party game "Werewolf" where players could create or join a game in real-time. The web application acted as a game moderator and players would vote and make decisions in the app.
+
+Technologies: <i class="fab fa-angular"></i> Angular, Spring Boot
+---
 
 ### [<i class="fab fa-github"></i>](https://github.com/public-transport-quality-grades){:target="blank"} Public Transport Quality Grades (2018)
 
@@ -60,24 +74,3 @@ With our group of Open Source enthusiasts ([Open\HSR](https://www.openhsr.ch/){:
 My contribution was a file synchronisation between the remote file server and the local computer.
 
 Technologies: <i class="fab fa-python"></i> Python
-
-## Experiments
-
-Here are some ideas I've played around with. They never grew to be complete projects and they were mostly created in an afternoon.
-
----
-
-### [<i class="fab fa-github"></i>](https://github.com/Excape/lyrics-analysis){:target="blank"} Lyrics Analysis (2017)
-
-When the [Natural Language API](https://cloud.google.com/natural-language/){:target="blank"} from Google was released, I thought it would be fun to feed some lyrics into it. I gathered lyrics from the charts in the last 20 years from various APIs and fed them through the Google API to get the sentiment score (how positive or negative a text is). I never got any meaningful results, but it was fun to play around with.
-
-Technologies: <i class="fab fa-python"></i> Python
-
----
-
-### [<i class="fab fa-github"></i>](https://github.com/jmatj/har2pcap){:target="blank"} har2pcap (2016)
-
-One afternoon we were playing around with the Chrome developer tools and wanted to analyze some network traffic with Wireshark. But Chrome works with the HAR format, Wireshark with pcap. We didn't find any tool to convert between those formats, so we wrote one ourselves.
-It was an interesting challenge to pick apart a binary protocol (pcap) and construct data according to the protocol specifications.
-
-Technologies: <i class="fab fa-python"></i> Python, TCP/IP

@@ -20,7 +20,7 @@ title                    : "Robin's website"
 title_separator          : "-"
 name                     : "Robin Suter"
 description              : "Robin Suter's website"
-url                      : "https://robinsuter.ch"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://robinsuter.com"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/"# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "robin_suter"
+  username               : #"robin_suter"
 facebook:
   username               :
   app_id                 :
@@ -89,7 +89,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links:
-    - "https://twitter.com/robin_suter"
     - "https://www.linkedin.com/in/robin-suter-630413161/"
 
 # Analytics
@@ -103,12 +102,12 @@ analytics:
 # Site Author
 author:
   name             : "Robin Suter"
-  avatar           : "/assets/images/robin-suter.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer, BoS graduate"
+  avatar           : "/assets/images/portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Software Engineer, BS in Computer Science"
   location         : "Zurich, Switzerland"
-  email            : "robin@robinsuter.ch"
-  uri              : "https://robinsuter.ch"
-  home             : "https://robinsuter.ch"
+  email            : "robin@robinsuter.com"
+  uri              : "https://robinsuter.com"
+  home             : "https://robinsuter.com"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -121,13 +120,13 @@ author:
   keybase          : "rsuter"
   instagram        :
   lastfm           :
-  linkedin         : "robin-suter-630413161" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "robin-suter" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "robin_suter"
+  twitter          : # "robin_suter"
   vine             :
   weibo            :
   xing             :
